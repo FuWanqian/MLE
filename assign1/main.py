@@ -187,9 +187,9 @@ df_clickstream_stats = df_clickstream.groupBy("Customer_ID").agg(*agg_exprs)
 
 
 # Save as single CSV using pandas
-df_financials.toPandas().to_csv("datamart/silver/silver_features_financials.csv", index=False)
-df_attributes.toPandas().to_csv("datamart/silver/silver_features_attributes.csv", index=False)
-df_clickstream_stats.toPandas().to_csv("datamart/silver/silver_feature_clickstream.csv", index=False)
+#df_financials.toPandas().to_csv("datamart/silver/silver_features_financials.csv", index=False)
+#df_attributes.toPandas().to_csv("datamart/silver/silver_features_attributes.csv", index=False)
+#df_clickstream_stats.toPandas().to_csv("datamart/silver/silver_feature_clickstream.csv", index=False)
 
 
 # Define silver directory
